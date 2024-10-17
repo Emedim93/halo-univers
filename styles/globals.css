@@ -1,0 +1,222 @@
+
+
+body {
+    background-image : url("/halo/public/image4/halo_night.png");
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+nav header {
+    display: flex;
+    justify-content: space-between;
+    padding: 200 200 120px;
+    font-size: 25px;
+    background-color: black;
+    background-size: cover;
+    margin: 0;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+a {
+    font-size: 1.5em;
+    color:white;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 20px;
+}
+main {
+    margin: 0 25px 35px;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border: 5px 5px 5px 5px;
+    box-shadow:3px 5px 12px white ;
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-bottom: 70px;
+    margin-left: 15%;
+    width: 30%;
+    background-color: brown;
+}
+
+.unsc {
+   
+    outline-style: groove;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    font-size: 1em;
+    text-align: justify;
+    padding: 15px 15px;
+    border: 20px 20px 12px 12px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 12px white;
+    line-height: 1.6em;
+    background-color:black;
+    max-width: 50%;
+    height: 50%;
+    color: white;
+}
+
+h2 {
+   position: absolute;
+    top: 180;
+    right:190;
+    margin-left:80%;
+    border: 5px 5px 5px 5px;
+    border-radius: 10px;
+    box-shadow: 10px white;
+    background-color: brown;
+    text-align: center;
+    width: 15%;
+    height:7%;
+    padding-top:23px;
+}
+
+.personnages ol {
+    display:flex;
+    float: right;
+    flex-direction: column;
+    border:12px;
+    border-radius: 5px;
+    box-shadow:12px white;
+    background-color: #ff25;
+    padding:3%;
+    width: 35%;
+    height:40%;
+    text-align:left;
+    position: absolute;
+    top: 310;
+    right: 50;
+    line-height: 2.9em;
+   
+}
+
+
+.img {
+    shape-outside: margin-box;
+    border-radius: 50%;
+    width: 10px;
+    object-fit: cover;
+    position: absolute;
+    top:25;
+    right:50;
+    }
+
+  
+
+    .flottante {
+        display: flex;
+        float: right;
+        width: 70;
+        border-radius: 70%;
+        
+    }
+
+    .flottante2 {
+        display: flex;
+        float: right;
+        width: 70;
+        border-radius: 70%;
+    }
+
+    .flottante3 {
+        position: absolute;
+        right: 19px;
+        width: 70;
+        border-radius: 70%;
+        margin-top: 1%;
+    }
+
+    .flottante4 {
+        position: absolute;
+        display: flex;
+        float: right;
+        right:20;
+        top: 180;
+        width: 70;
+        border-radius: 70%;
+    }
+
+    .flottante5 {
+        position: absolute;
+        top: 225;
+        right: 19px;
+        display: flex;
+        float: right;
+        width: 70;
+        border-radius: 70%;
+    }
+
+    .flottante6 {
+        position: absolute;
+        top: 280;
+        right: 20;
+        display: flex;
+        float: right;
+        width: 70;
+        border-radius: 70%;
+        
+    }
+
+    .planetes {
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 900;
+        right: 50;
+        display: flex;
+        flex-direction: column;
+        border:12px;
+        border-radius: 5px;
+        box-shadow:12px white;
+        background-color: #ff25;
+        padding:1%;
+        width: 50%;
+        height:30%;
+        line-height: 2.9em;
+    }
+
+    .harv {
+        position: absolute;
+        top: 80;
+        right: 20;
+        display: flex;
+        float: right;
+        width: 70;
+        border-radius: 70%;
+    }
+
+    #planetes {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: uppercase;
+        text-decoration: underline;
+        position: absolute;
+        top: 580;
+        right:190;
+        margin-left:80%;
+        border: 5px 5px 5px 5px;
+        border-radius: 10px;
+        box-shadow: 10px white;
+        background-color: brown;
+        text-align: center;
+        max-width: 1200px;
+        height:7%;
+        padding-top:23px;
+    }
+        

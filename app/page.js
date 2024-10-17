@@ -1,101 +1,84 @@
-import Image from "next/image";
+import Head from 'next/head';
+import styles from '../styles/globals.css';
+import Image from 'next/image';
+
+
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    return (
+        <>
+            <Head>
+                <title>Halo, artefact des Forenners</title>
+                <link rel='stylesheet' href="../styles/globals.css" />
+            </Head>
+            <body>
+                <header>
+                    <nav>
+                    <a href="#unsc">Unions des Nations planétaires</a>
+                    <a href="#covenant">Harvest, premier conflit</a>
+                    <a href="#reach">Terre des Spartans</a>
+                    <a href="#spartan">Projet Mjlonir</a>
+                    <a href="#planetes">Planètes</a>
+                    </nav>
+                </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+                <main>
+                    <h1 id="unsc">Unions des Nations planétaires</h1>
+                    <div className="unsc">
+                    <p>
+                        <q>L'Union des pays aux seins d'un organisme planétaire</q> s'est faite afin de découvrir d'autres systèmes habitables pour l'homme...
+                    </p>
+                    </div>
+
+                    <h2><strong>Personnages dans Halo:</strong></h2>
+                    <div className="personnages">
+                        <ol>
+                            <div className="major">
+                                <img src="/image/halo-image/major.png" alt="Major" width={200} height={200} className="flottante" />
+                                <li>Major: John-117</li>
+                            </div>
+
+                            <div className="cortana">
+                                <img src="/image/halo-image/cortana.png" alt="Cortana" width={200} height={200} className="flottante2" />
+                                <li>Cortana: intelligence artificielle accompagnant le major</li>
+                            </div>
+
+                            <div className="keyes">
+                                <img src="/image/halo-image/keyes.png" alt="Capitaine" width={200} height={200} className="flottante3" />
+                                <li>Capitaine Keyes: Jacob Keyes, capitaine du Pillar-of-autumn</li>
+                            </div>
+
+                            <div className="johnson">
+                                <img src="/image4/halo-image/johnson.png" alt="sergent Jonhson" width={200} height={200} className="flottante4" />
+                                <li>Sergent Johnson: soldat du pillar</li>
+                            </div>
+
+                            <div className="commandant">
+                                <img src="/image/halo-image/commandant_keyes.png" alt="Miranda" width={200} height={200}  className="flottante5" />
+                                <li>Commandant Miranda Keyes: fille du capitaine Keyes</li>
+                            </div>
+
+                            <div className="arbiter">
+                                <img src="/image/halo-image/arbiter.png" alt="Tel Vanalee" width={200} height={200} className="flottante6" />
+                                <li>Arbiter: Commandant de la flotte Covenant</li>
+                            </div>
+                        </ol>
+                    </div>
+
+                    <h1 id="planetes">Les planètes</h1>
+                        <div className="planetes">
+                            <ol>
+                                <div className="harvest">
+                                    <img src="/image/halo-image/harvest.png" className="harv" />
+                                        <li>Harvest: premier conflit majeur entre humains et Covenant.</li>
+                                </div>
+                                        <li>Reach</li>
+                                        <li>Terre</li>
+                                        <li>Sanghelios</li>
+                            </ol>
+                        </div>
+                </main>
+            </body>
+        </>
+    )
 }
