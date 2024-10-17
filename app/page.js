@@ -33,50 +33,50 @@ export default function Home() {
                     <h2><strong>Personnages dans Halo:</strong></h2>
                     <div className="personnages">
                         <ol>
-                            <div className="major">
-                                <img src="/image/halo-image/major.png" alt="Major" width={200} height={200} className="flottante" />
-                                <li>Major: John-117</li>
-                            </div>
+                            <li className="major">
+                                <Image src="/image/halo-image/major.png" alt="Major" width={200} height={200} className="flottante" />
+                                Major: John-117
+                            </li>
 
-                            <div className="cortana">
-                                <img src="/image/halo-image/cortana.png" alt="Cortana" width={200} height={200} className="flottante2" />
-                                <li>Cortana: intelligence artificielle accompagnant le major</li>
-                            </div>
+                            <li className="cortana">
+                                <Image src="/image/halo-image/cortana.png" alt="Cortana" width={200} height={200} className="flottante2" />
+                                Cortana: intelligence artificielle accompagnant le major
+                            </li>
 
-                            <div className="keyes">
-                                <img src="/image/halo-image/keyes.png" alt="Capitaine" width={200} height={200} className="flottante3" />
-                                <li>Capitaine Keyes: Jacob Keyes, capitaine du Pillar-of-autumn</li>
-                            </div>
+                            <li className="keyes">
+                                <Image src="/image/halo-image/keyes.png" alt="Capitaine" width={200} height={200} className="flottante3" />
+                                Capitaine Keyes: Jacob Keyes, capitaine du Pillar-of-autumn
+                            </li>
 
-                            <div className="johnson">
-                                <img src="/image4/halo-image/johnson.png" alt="sergent Jonhson" width={200} height={200} className="flottante4" />
-                                <li>Sergent Johnson: soldat du pillar</li>
-                            </div>
+                            <li className="johnson">
+                                <Image src="/image/halo-image/johnson.png" alt="Sergent Jonhson" width={200} height={200} className="flottante4" />
+                                Sergent Johnson: soldat du pillar
+                            </li>
 
-                            <div className="commandant">
-                                <img src="/image/halo-image/commandant_keyes.png" alt="Miranda" width={200} height={200}  className="flottante5" />
-                                <li>Commandant Miranda Keyes: fille du capitaine Keyes</li>
-                            </div>
+                            <li className="commandant">
+                                <Image src="/image/halo-image/commandant_keyes.png" alt="Miranda" width={200} height={200} className="flottante5" />
+                                Commandant Miranda Keyes: fille du capitaine Keyes
+                            </li>
 
-                            <div className="arbiter">
-                                <img src="/image/halo-image/arbiter.png" alt="Tel Vanalee" width={200} height={200} className="flottante6" />
-                                <li>Arbiter: Commandant de la flotte Covenant</li>
-                            </div>
+                            <li className="arbiter">
+                                <Image src="/image/halo-image/arbiter.png" alt="Tel Vanalee" width={200} height={200} className="flottante6" />
+                                Arbiter: Commandant de la flotte Covenant
+                            </li>
                         </ol>
                     </div>
 
                     <h1 id="planetes">Les planètes</h1>
-                        <div className="planetes">
-                            <ol>
-                                <div className="harvest">
-                                    <img src="/image/halo-image/harvest.png" className="harv" />
-                                        <li>Harvest: premier conflit majeur entre humains et Covenant.</li>
-                                </div>
-                                        <li>Reach</li>
-                                        <li>Terre</li>
-                                        <li>Sanghelios</li>
-                            </ol>
-                        </div>
+                    <div className="planetes">
+                        <ol>
+                            <li className="harvest">
+                                <Image src="/image/halo-image/harvest.png" alt="Harvest" width={200} height={200} className="harv" />
+                                Harvest: premier conflit majeur entre humains et Covenant.
+                            </li>
+                            <li>Reach</li>
+                            <li>Terre</li>
+                            <li>Sanghelios</li>
+                        </ol>
+                    </div>
                 </main>
             </body>
         </>
